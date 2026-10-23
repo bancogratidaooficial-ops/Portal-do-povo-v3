@@ -1,0 +1,21 @@
+{
+  "name": "Banco Gratidão Oficial - Portal do Povo Curitiba 24H",
+  "short_name": "Banco Gratidão",
+  "description": "10 serviços 24h de Curitiba: Farmácia, Veterinário, Dentista, Gás, Chaveiro, Eletricista, Advogado, Oficina, Hospitais SUS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#FFD700",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
