@@ -1,124 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="manifest" href="manifest.json">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<title>Portal do Povo - Banco Gratidão Oficial</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2263470788888608" crossorigin="anonymous"></script>
+<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+<title>BANCO GRATIDÃO OFICIAL - Portal do Povo - Versão Clara</title>
+<meta name="theme-color" content="#FFD700">
+<link rel="icon" href="icon.png"><link rel="manifest" href="manifest.json">
 <style>
-*{box-sizing:border-box}body{margin:0;background:#050505;color:#fff;font-family:Arial;padding-bottom:110px}
-.top{background:#000;padding:12px;text-align:center;border-bottom:3px solid #FFD700;position:sticky;top:0;z-index:20}
-.top h1{margin:0;color:#FFD700;font-size:16px}
-.top p{margin:3px 0 0;color:#aaa;font-size:10px}
-.video-box{margin:8px;border:2px solid #FFD700;border-radius:14px;overflow:hidden;background:#000;position:relative}
-.video-box video{width:100%;display:block}
-#btnChamarPortal{
-  position:fixed;bottom:10px;left:10px;right:10px;z-index:9999;
-  background:linear-gradient(90deg,#ff0000,#b30000);
-  border:2px solid #FFD700;border-radius:16px;padding:12px;
-  display:flex;align-items:center;justify-content:space-between;
-  box-shadow:0 4px 20px rgba(0,0,0,0.8);cursor:pointer;
-}
-#btnChamarPortal img{width:52px;height:52px;border-radius:10px;border:1px solid #FFD700;object-fit:cover}
-#btnChamarPortal b{color:#fff;font-size:13px}
-#btnChamarPortal span{color:#FFD700;font-size:10px;display:block}
-#btnChamarPortal .abrir{background:#FFD700;color:#000;padding:9px 18px;border-radius:20px;font-weight:900;font-size:12px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px}
-.card{background:#151515;border:1px solid #333;border-radius:12px;padding:12px;text-align:center;text-decoration:none;color:#fff;display:block}
-.card b{display:block;font-size:11px;margin-top:6px}
+*{box-sizing:border-box}body{margin:0;background:#f5f5f7;color:#111;font-family:Arial;padding-bottom:90px}
+.top{padding:16px;background:#fff;border-bottom:3px solid #FFD700;text-align:center;position:sticky;top:0;z-index:30;box-shadow:0 2px 10px rgba(0,0,0,.1)}
+.top h1{margin:0;color:#111;font-size:20px;font-weight:900}.top h1 span{color:#c6a700}
+.top p{color:#666;font-size:11px;margin:4px 0 0}
+.actions{display:flex;gap:8px;justify-content:center;margin-top:12px;flex-wrap:wrap}
+.btn-top{padding:10px 18px;border-radius:25px;font-weight:900;font-size:11px;border:0;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.1)}
+.btn-share{background:#25D366;color:#fff}.btn-invite{background:#FFD700;color:#000}.btn-install{background:#111;color:#fff}
+.cat{margin:22px 12px 8px;padding:0 0 0 10px;font-weight:900;color:#111;font-size:13px;border-left:4px solid #FFD700;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 10px}
+@media(min-width:700px){.grid{grid-template-columns:1fr 1fr 1fr 1fr}}
+.card{border-radius:16px;overflow:hidden;background:#fff;border:1px solid #e5e5e5;text-decoration:none;display:block;position:relative;height:110px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card img{width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;opacity:0.35}
+.card::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(255,255,255,0.2),rgba(255,255,255,0.95))}
+.card-content{position:absolute;bottom:0;left:0;right:0;padding:8px;z-index:2}
+.card-content b{display:block;color:#111;font-size:11px;line-height:1.2}.card-content span{color:#666;font-size:8px}
+.card:hover{border-color:#FFD700;transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.btn-estados{display:flex;align-items:center;justify-content:center;gap:10px;background:#fff;border:2px solid #FFD700;color:#111;padding:14px;border-radius:14px;font-weight:900;font-size:14px;text-decoration:none;margin:14px 10px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.btn-estados img{width:32px;height:22px;border-radius:3px;border:1px solid #ddd}
+.ad-box{background:#fff;border:1px dashed #c6a700;border-radius:12px;padding:10px;text-align:center;margin:14px 10px}.ad-box small{color:#999;font-size:8px}
+footer{background:#fff;border-top:2px solid #eee;margin-top:20px;padding:16px;text-align:center}footer a{color:#111;text-decoration:none;font-size:11px;margin:4px;border:1px solid #ddd;padding:6px 12px;border-radius:20px;background:#f9f9f9;display:inline-block}
+#installFloat{position:fixed;bottom:20px;right:12px;background:#111;color:#FFD700;padding:12px 16px;border-radius:30px;font-weight:900;font-size:12px;z-index:9999;display:block;border:2px solid #FFD700;box-shadow:0 4px 15px rgba(0,0,0,.2);cursor:pointer}
+.cine-mini{position:fixed;bottom:20px;left:12px;z-index:9998;background:#fff;border:2px solid #ff0000;border-radius:12px;padding:6px 10px;display:flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.cine-mini img{width:32px;height:32px;border-radius:6px}.cine-mini b{font-size:10px;color:#111}.cine-mini small{font-size:8px;color:#c00;display:block}
 </style>
 </head>
 <body>
-  <!-- 2 VIDEOS PORTAL DO POVO - NO COMEÇO -->
-<!-- VIDEO 1 - SEU VIDEO DO PORTAL (que você me mandou antes) -->
-<div style="margin:8px 8px 0;border:2px solid #FFD700;border-radius:14px 14px 0 0;overflow:hidden;background:#000">
-<video id="v1" autoplay muted loop playsinline controls poster="IMG-20261026-WA5175.jpg" style="width:100%;display:block">
-<source src="portal.mp4" type="video/mp4">
-</video>
-<div style="padding:8px;background:#111;text-align:center;border-bottom:1px solid #333">
-<b style="color:#FFD700;font-size:11px">PORTAL DO POVO - VIDEO 1</b><br>
-<button onclick="document.getElementById('v1').muted=false;document.getElementById('v1').play()" style="margin-top:6px;background:#FFD700;color:#000;border:0;padding:8px 18px;border-radius:20px;font-weight:900;font-size:10px">🔊 SOM VIDEO 1</button>
-</div>
-</div>
+<amp-auto-ads type="adsense" data-ad-client="ca-pub-2263470788888608"></amp-auto-ads>
+<div class="top"><h1>BANCO <span>GRATIDÃO</span> OFICIAL</h1><p>Portal do Povo - Versão Clara - 100+ Pastas em Cards</p><div class="actions"><button class="btn-top btn-share" onclick="compartilhar()">📤 COMPARTILHAR</button><button class="btn-top btn-invite" onclick="convidar()">👥 CONVIDAR MEMBROS</button><button class="btn-top btn-install" onclick="instalar()">📲 INSTALAR APP</button></div></div>
 
-<!-- VIDEO 2 - SEU VIDEO DO YOUTUBE QUE VOCÊ FEZ -->
-<div style="margin:0 8px 8px;border:2px solid #ff0000;border-top:0;border-radius:0 0 14px 14px;overflow:hidden;background:#000">
-<div style="position:relative;width:100%;aspect-ratio:16/9;background:#000">
-<iframe id="v2" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/spF_YCNC0Kc?autoplay=1&mute=1&loop=1&playlist=spF_YCNC0Kc&controls=1&rel=0&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-<div style="padding:8px;background:#111;text-align:center">
-<b style="color:#ff4444;font-size:11px">PORTAL DO POVO - VIDEO QUE VOCÊ FEZ - YOUTUBE</b><br>
-<button onclick="document.getElementById('v2').src='https://www.youtube.com/embed/spF_YCNC0Kc?autoplay=1&mute=0&loop=1&playlist=spF_YCNC0Kc&controls=1&rel=0&playsinline=1'" style="margin-top:6px;background:#ff0000;color:#fff;border:0;padding:8px 18px;border-radius:20px;font-weight:900;font-size:10px">🔊 SOM VIDEO 2</button>
-</div>
-</div>
-<!-- FIM 2 VIDEOS -->
-<div class="top"><h1>PORTAL DO POVO - BANCO GRATIDÃO</h1><p>O Modão de Curitiba - Tudo num lugar só</p></div>
+<div class="ad-box"><small>PUBLICIDADE - ADSENSE TOPO</small><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2263470788888608" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
 
-<div class="video-box">
-<video id="playerPovo" autoplay muted loop playsinline controls poster="IMG-20261026-WA5175.jpg">
-  <source src="portal.mp4" type="video/mp4">
-  Seu navegador não suporta vídeo.
-</video>
-<div style="padding:10px;background:#111;text-align:center">
-<b style="color:#FFD700">LIGUEI NO 1056 E NINGUÉM ATENDEU? ENTRA NO PORTAL DO POVO</b><br>
-<span style="color:#aaa;font-size:10px">Toque no botão abaixo para ativar o som</span><br>
-<button onclick="ativarSom()" style="margin-top:8px;background:#FFD700;color:#000;border:0;padding:10px 20px;border-radius:20px;font-weight:900">🔊 ATIVAR SOM</button>
-</div>
-</div>
+<a href="Estados-do-brasil/" class="btn-estados"><img src="https://flagcdn.com/w40/br.png"> 🇧🇷 TODOS OS ESTADOS DO BRASIL</a>
+<a href="Estados-do-brasil/pr/" class="btn-estados"><img src="https://flagcdn.com/w40/br-pr.png"> 📍 PARANÁ - 399 CIDADES</a>
 
+<div class="cat">🌙 ESTABELECIMENTOS 24H</div>
 <div class="grid">
-<a href="../../index.html" class="card">🏠<b style="color:#FFD700">VOLTAR AO BANCO GRATIDÃO - 62 PORTAIS</b></a>
-<a href="../../Cine-gratiflix/index.html" class="card">🎬<b style="color:#ff4444">CINE GRATIFLIX - 89 FILMES</b></a>
-<a href="../../farmacias-24h/index.html" class="card">💊<b>FARMÁCIAS 24H</b></a>
-<a href="../../hospitais/index.html" class="card">🏥<b>HOSPITAIS</b></a>
-<a href="../../advogados-24h/index.html" class="card">⚖️<b>ADVOGADOS PLANTÃO</b></a>
-<a href="../../delegacias-curitiba/index.html" class="card">🚓<b>DELEGACIAS</b></a>
+<a href="chaveiro-24h/" class="card"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400"><div class="card-content"><b>🔑 CHAVEIRO 24H</b><span>chaveiro-24h</span></div></a>
+<a href="eletricista-24h/" class="card"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400"><div class="card-content"><b>⚡ ELETRICISTA 24H</b><span>eletricista-24h</span></div></a>
+<a href="gaz-24h/" class="card"><img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=400"><div class="card-content"><b>🔥 GAZ 24H</b><span>gaz-24h</span></div></a>
+<a href="farmacias-24h/" class="card"><img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400"><div class="card-content"><b>💊 FARMÁCIAS 24H</b><span>farmacias-24h</span></div></a>
+<a href="veterinarios-24h/" class="card"><img src="https://images.unsplash.com/photo-1558788353-6fc6f59e2d1c?w=400"><div class="card-content"><b>🐾 VETERINÁRIOS 24H</b><span>veterinarios-24h</span></div></a>
+<a href="dentistas-24h/" class="card"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400"><div class="card-content"><b>🦷 DENTISTAS 24H</b><span>dentistas-24h</span></div></a>
+<a href="advogados-24h/" class="card"><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400"><div class="card-content"><b>⚖️ ADVOGADOS 24H</b><span>advogados-24h</span></div></a>
+<a href="oficinas-24h/" class="card"><img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=400"><div class="card-content"><b>🔧 OFICINAS 24H</b><span>oficinas-24h</span></div></a>
+<a href="funerarias/" class="card"><img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=400"><div class="card-content"><b>⚰️ FUNERÁRIAS</b><span>funerarias</span></div></a>
+<a href="cemiterios/" class="card"><img src="https://images.unsplash.com/photo-1487621167305-5d248087c724?w=400"><div class="card-content"><b>🪦 CEMITÉRIOS</b><span>cemiterios</span></div></a>
 </div>
 
-<div id="btnChamarPortal" onclick="chamarPortal()">
-  <div style="display:flex;align-items:center;gap:10px">
-    <img src="IMG-20261026-WA5175.jpg">
-    <div><b>🔴 CHAMAR PORTAL DO POVO</b><span>Farmácia, hospital e advogado - Toque aqui</span></div>
-  </div>
-  <div class="abrir">CHAMAR</div>
+<div class="cat">🏛️ PÚBLICOS E SAÚDE</div>
+<div class="grid">
+<a href="orgaos-publicos/" class="card"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400"><div class="card-content"><b>🏛️ ÓRGÃOS PÚBLICOS</b><span>orgaos-publicos</span></div></a>
+<a href="hospitais/" class="card"><img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400"><div class="card-content"><b>🏥 HOSPITAIS</b><span>hospitais</span></div></a>
+<a href="postos-saude/" class="card"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400"><div class="card-content"><b>🏥 POSTOS SAÚDE</b><span>postos-saude</span></div></a>
+<a href="delegacias-curitiba/" class="card"><img src="https://images.unsplash.com/photo-1557081998-c7f0e8f3b8a3?w=400"><div class="card-content"><b>🚓 DELEGACIAS</b><span>delegacias-curitiba</span></div></a>
+<a href="cras-creas/" class="card"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400"><div class="card-content"><b>🏠 CRAS CREAS</b><span>cras-creas</span></div></a>
+<a href="emergencias/" class="card"><img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=400"><div class="card-content"><b>🚨 EMERGÊNCIAS</b><span>emergencias</span></div></a>
 </div>
+
+<div class="ad-box"><small>PUBLICIDADE MEIO</small><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2263470788888608" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+
+<div class="cat">🚌 TRANSPORTE E CIDADE</div>
+<div class="grid">
+<a href="onibus/" class="card"><img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400"><div class="card-content"><b>🚌 ÔNIBUS</b><span>onibus</span></div></a>
+<a href="mapas/" class="card"><img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=400"><div class="card-content"><b>🗺️ MAPAS</b><span>mapas</span></div></a>
+<a href="estacionamento/" class="card"><img src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=400"><div class="card-content"><b>🅿️ ESTACIONAMENTO</b><span>estacionamento</span></div></a>
+<a href="vagas/" class="card"><img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400"><div class="card-content"><b>💼 VAGAS</b><span>vagas</span></div></a>
+<a href="radares/" class="card"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400"><div class="card-content"><b>📡 RADARES</b><span>radares</span></div></a>
+<a href="cameras/" class="card"><img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=400"><div class="card-content"><b>📹 CAMERAS</b><span>cameras</span></div></a>
+</div>
+
+<div class="cat">📊 ORGANIZAÇÃO - BANCOS, MERCADO, CURSOS</div>
+<div class="grid">
+<a href="bancos/" class="card"><img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400"><div class="card-content"><b>🏦 BANCOS</b><span>bancos</span></div></a>
+<a href="caixa/" class="card"><img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400"><div class="card-content"><b>🏦 CAIXA</b><span>caixa</span></div></a>
+<a href="mercado/" class="card"><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=400"><div class="card-content"><b>🛒 MERCADO</b><span>mercado</span></div></a>
+<a href="gastos/" class="card"><img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400"><div class="card-content"><b>💰 GASTOS</b><span>gastos</span></div></a>
+<a href="cursos/" class="card"><img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?w=400"><div class="card-content"><b>📚 CURSOS</b><span>cursos</span></div></a>
+<a href="enem/" class="card"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400"><div class="card-content"><b>📝 ENEM</b><span>enem</span></div></a>
+</div>
+
+<div class="cat">🎬 ENTRETENIMENTO NO FINAL</div>
+<div class="grid">
+<a href="Cine-gratiflix/" class="card" style="border:2px solid #ff0000"><img src="https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg"><div class="card-content"><b>🎬 CINE GRATIFLIX - 89 FILMES</b><span>Grátis - Toque aqui</span></div></a>
+<a href="gratiflix/" class="card"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400"><div class="card-content"><b>📺 GRATIFLIX</b><span>gratiflix</span></div></a>
+<a href="filmes/" class="card"><img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400"><div class="card-content"><b>🎬 FILMES</b><span>filmes</span></div></a>
+<a href="video/" class="card"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400"><div class="card-content"><b>🎥 VIDEO</b><span>video</span></div></a>
+<a href="musicas/" class="card"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400"><div class="card-content"><b>🎵 MÚSICAS</b><span>musicas</span></div></a>
+<a href="redes-sociais/" class="card"><img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?w=400"><div class="card-content"><b>📱 REDES SOCIAIS</b><span>redes-sociais</span></div></a>
+<a href="biblia/" class="card"><img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=400"><div class="card-content"><b>📖 BÍBLIA</b><span>biblia</span></div></a>
+<a href="viagens-no-tempo/" class="card"><img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=400"><div class="card-content"><b>⏳ VIAGENS TEMPO</b><span>viagens-no-tempo</span></div></a>
+<a href="tesoura/" class="card"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400"><div class="card-content"><b>✂️ TESOURA</b><span>tesoura</span></div></a>
+<a href="Portal/" class="card"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400"><div class="card-content"><b>📁 PORTAL</b><span>Portal</span></div></a>
+</div>
+
+<div class="ad-box"><small>ADSENSE RODAPÉ</small><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2263470788888608" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+
+<footer>
+<div style="font-weight:900;color:#111">BANCO GRATIDÃO - PORTAL DO POVO - VERSÃO CLARA</div>
+<div style="margin-top:10px"><a href="contato/">Contato</a><a href="sobre/">Sobre</a><a href="privacidade/">Privacidade</a><a href="ajuda/">Ajuda</a></div>
+<div style="margin-top:8px"><a href="Estados-do-brasil/">🇧🇷 Estados</a><a href="Estados-do-brasil/pr/">📍 Paraná</a></div>
+</footer>
+
+<button id="installFloat" onclick="instalar()">📲 INSTALAR</button>
+<div class="cine-mini" onclick="location.href='Cine-gratiflix/'"><img src="https://image.tmdb.org/t/p/w92/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg"><div><b>🎬 CINE GRATIFLIX</b><small>89 FILMES GRÁTIS</small></div></div>
 
 <script>
-function ativarSom(){
-  var v=document.getElementById('playerPovo');
-  v.muted=false; v.volume=1; v.play();
-}
-function chamarPortal(){
-  var v=document.getElementById('playerPovo');
-  v.scrollIntoView({behavior:'smooth'});
-  ativarSom();
-  if(navigator.vibrate) navigator.vibrate([200,100,200]);
-}
-if('serviceWorker' in navigator){ navigator.serviceWorker.register('./sw.js'); }
+let deferredPrompt=null;
+function compartilhar(){if(navigator.share){navigator.share({title:'Banco Gratidão - Versão Clara',text:'Portal do Povo - 100+ serviços em cards claros',url:location.href})}else{navigator.clipboard.writeText(location.href);alert('Link copiado!')}}
+function convidar(){let m=encodeURIComponent('🔥 Entra no Portal do Povo - Versão Clara: '+location.href);window.open('https://wa.me/?text='+m,'_blank')}
+window.addEventListener('beforeinstallprompt',(e)=>{e.preventDefault();deferredPrompt=e;});
+function instalar(){if(deferredPrompt){deferredPrompt.prompt();deferredPrompt.userChoice.then(()=>{deferredPrompt=null;});}else alert('📲 Para instalar: Chrome > 3 pontinhos ⋮ > Instalar app ou Adicionar à tela inicial');}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('Sw.js')}
 </script>
 </body>
-  <!-- 2 VIDEOS PORTAL DO POVO - NO COMEÇO -->
-<!-- VIDEO 1 - SEU VIDEO DO PORTAL (que você me mandou antes) -->
-<div style="margin:8px 8px 0;border:2px solid #FFD700;border-radius:14px 14px 0 0;overflow:hidden;background:#000">
-<video id="v1" autoplay muted loop playsinline controls poster="IMG-20261026-WA5175.jpg" style="width:100%;display:block">
-<source src="portal.mp4" type="video/mp4">
-</video>
-<div style="padding:8px;background:#111;text-align:center;border-bottom:1px solid #333">
-<b style="color:#FFD700;font-size:11px">PORTAL DO POVO - VIDEO 1</b><br>
-<button onclick="document.getElementById('v1').muted=false;document.getElementById('v1').play()" style="margin-top:6px;background:#FFD700;color:#000;border:0;padding:8px 18px;border-radius:20px;font-weight:900;font-size:10px">🔊 SOM VIDEO 1</button>
-</div>
-</div>
-
-<!-- VIDEO 2 - SEU VIDEO DO YOUTUBE QUE VOCÊ FEZ -->
-<div style="margin:0 8px 8px;border:2px solid #ff0000;border-top:0;border-radius:0 0 14px 14px;overflow:hidden;background:#000">
-<div style="position:relative;width:100%;aspect-ratio:16/9;background:#000">
-<iframe id="v2" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/spF_YCNC0Kc?autoplay=1&mute=1&loop=1&playlist=spF_YCNC0Kc&controls=1&rel=0&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-<div style="padding:8px;background:#111;text-align:center">
-<b style="color:#ff4444;font-size:11px">PORTAL DO POVO - VIDEO QUE VOCÊ FEZ - YOUTUBE</b><br>
-<button onclick="document.getElementById('v2').src='https://www.youtube.com/embed/spF_YCNC0Kc?autoplay=1&mute=0&loop=1&playlist=spF_YCNC0Kc&controls=1&rel=0&playsinline=1'" style="margin-top:6px;background:#ff0000;color:#fff;border:0;padding:8px 18px;border-radius:20px;font-weight:900;font-size:10px">🔊 SOM VIDEO 2</button>
-</div>
-</div>
-<!-- FIM 2 VIDEOS -->
 </html>
